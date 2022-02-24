@@ -32,14 +32,14 @@ if nums[j]<nums[low_index]:
 list_of_nums=eval(input())
 value=selection_sort(list_of_nums)
 print(value)
-
+~~~
 ![output](selection.jpeg)
 
 ## Result:
 Thus the program is written to perform selection sort and insertion sort using python programming.
 
 ii)	#Insertion Sort
-
+~~~
 def insertion_sort(nums):
     for i in range(1,len(nums)):
         item=nums[i]
