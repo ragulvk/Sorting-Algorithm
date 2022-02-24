@@ -18,6 +18,7 @@ To write a program to perform selection sort and insertion sort using python pro
 4.	Break the loop and insert X.
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
+~~~
 i)	#Selection Sort:
 
 def selection_sort(nums):
@@ -52,7 +53,7 @@ list_of_nums = eval(input())
 
 value=insertion_sort(list_of_nums)
 print(value)
-
+~~~
 ## Output:
 
 ![output](inversion.jpeg)
